@@ -13,10 +13,11 @@
 - u can easily control the most rated, weekly, and the recommended animes by just changing the sql columns
 - good looking notifications (2 type easily can add more)
 
-# Not finished things (probably never will)
+# Not finished things (probably never will cuz its boring to work on this now)
 
 - Settings (change pw, email)
 - support (támogatás)
+- forgot password
 
 # Finished product showcase
 
