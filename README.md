@@ -1,7 +1,7 @@
 # Anime Website (twitch.tv styled)
 
 - made a website for anime since every anime website in my language is shit
-- made it in less than 4 days so bugs can be there the datas (anime infos/pictures/videos) was got through an api made by myself and i will not publish that
+- made it in less than 4 days so bugs can be there the datas (anime infos/pictures/videos and anything else that is not on the disk) was got through an api made by myself and i will not publish that
 
 # Features
 
