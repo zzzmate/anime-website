@@ -16,7 +16,7 @@
 # Not finished things
 - (probably never will cuz its boring to work on this project):
 
-1. Settings (change pw, email)
+1. settings (change pw, email)
 2. support (támogatás)
 3. forgot password
 
