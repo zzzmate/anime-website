@@ -259,8 +259,8 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `username`, `nickname`, `bio`, `password`, `email`, `favourites`, `last_three_watched`, `role`, `registered_at`) VALUES
 (1, 'asd', '', 'Nincs információ.', '$2y$10$LptmVeSl/BhszDz6SmA2z.Wgavy9Kvtt3EqHm0CX.2VeKXlIiKM.G', 'asd@asd.com', '[1,11]', '', '', ''),
 (2, 'csa', 'sa', 'Nincs információ.', '$2y$10$dgp1fUi6aXQoQJ/KXxNn8ewzato6e6btbtCHG.zvzlYKOf2.Xc1UW', 'csa@gmail.com', '[]', '', '', ''),
-(3, 'helomate', '', 'Nincs információ.', '$2y$10$mMVWWhv2m3KnIkiwrAOfbuQsQCn/eLYWkybHK2qphmTVAlzn.WUky', '2mate844@gmail.com', '[]', '', '', '2025-01-25 13:52:21'),
-(4, 'helomate2', 'helomate26325', 'Nincs információ.', '$2y$10$3cJPmkjxBoaZB3.7VtP/Purb3nVyYBXQBdqXJgI3YU3FIsHSBI7iO', '3mate844@gmail.com', '[]', '', '', '2025-01-25 13:58:26'),
+(3, 'helomate', '', 'Nincs információ.', '$2y$10$mMVWWhv2m3KnIkiwrAOfbuQsQCn/eLYWkybHK2qphmTVAlzn.WUky', 'asd2@gmail.com', '[]', '', '', '2025-01-25 13:52:21'),
+(4, 'helomate2', 'helomate26325', 'Nincs információ.', '$2y$10$3cJPmkjxBoaZB3.7VtP/Purb3nVyYBXQBdqXJgI3YU3FIsHSBI7iO', 'asd@gmail.com', '[]', '', '', '2025-01-25 13:58:26'),
 (5, 'helomate3', 'mate', 'cssssssssss', '$2y$10$sy8WmhoUyzmgZ7pbJOmjdeR54wIMCnDSiKfc217BZFnOwgTqfzuFS', 'asd123@gmail.xn--com-w1a', '[1]', '[13,1,2]', 'admin', '2025-01-25 14:17:12');
 
 --
