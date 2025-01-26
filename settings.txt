@@ -1,0 +1,8 @@
+fontawesome: https://kit.fontawesome.com/7159432989.js
+main-purple: #9147ff
+dark-purple: #451093
+dark-gray: #0e0e10
+light-gray: #26262c
+text-hover: #bf94ff
+button-hover: #772ce8
+text-link: #bf94ff

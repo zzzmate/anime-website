@@ -1,0 +1,206 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    min-height: 40vh;
+}
+
+.box {
+    background-color: #0e0e10;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: 550;
+}
+
+.box h2 {
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 19px;
+}
+
+.info-p {
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.form-group input {
+    width: 96%;
+    padding: 5px;
+    background-color: #1f1f23;
+    border: 2px solid #4c4c55;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    outline: none;
+}
+
+.email-thing {
+    display: flex;
+    flex-direction: row;
+}
+
+.email-thing i {
+    margin-left: 5px;
+    font-size: 13px;
+    margin-top: -2px;
+    margin-left: 3px;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #18181b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    white-space: nowrap;
+    z-index: 10;
+    display: none;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 8px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.email-thing .fa-circle-info:hover + .tooltip {
+    display: block;
+    opacity: 1;
+}
+.form-group input:focus {
+    outline: 3px solid #9147ff;
+}
+
+.form-group input:hover {
+    border: 2px solid #6a6a76;
+}
+
+.form-group input::placeholder {
+    color: #bbb;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+
+.form-actions label {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.form-actions input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 7px;
+    background-color: #9147ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 550;
+    cursor: pointer;
+    transition: background-color 0.085s ease;
+}
+
+.submit-btn:hover {
+    background-color: #772ce8;
+}
+
+.reg-button {
+    width: 100%;
+    padding: 7px;
+    background-color: inherit;
+    color: #bf94ff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 550;
+    cursor: pointer;
+    transition: background-color 0.085s ease;
+}
+
+.reg-button:hover {
+    color: #fff;
+    background-color: rgba(83, 83, 95, 0.38);
+}
+
+.forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #bf94ff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.form-group .eye-icon {
+    position: absolute;
+    top: 73%;
+    right: 0px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #bbb;
+}
+
+.form-group .eye-icon:hover {
+    color: #fff;
+}
+
+.divider-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    width: 110%;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid rgba(83, 83, 95, 0.48);
+    margin: 0 10px;
+}
+
+.divider span {
+    font-size: 13px;
+    color: #adadb8;
+    font-weight: normal;
+}

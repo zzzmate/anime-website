@@ -1,0 +1,94 @@
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    background-color: #1f1f23;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.twitch-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+.twitch-table th,
+.twitch-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.twitch-table th {
+    background-color: #9147ff;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.twitch-table tbody tr {
+    border-bottom: 1px solid #3a3a3d;
+}
+
+.twitch-table tbody tr:nth-child(even) {
+    background-color: #2a2a2e;
+}
+
+.twitch-table tbody tr:hover {
+    background-color: #3a3a3d;
+    cursor: pointer;
+}
+
+.twitch-table tbody td {
+    font-size: 14px;
+}
+
+.count-badge {
+    background-color: #9147ff;
+    color: #ffffff;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.sidebar-item.active .count-badge {
+    background-color: #772ce8;
+}
+
+.reject-btn {
+    background-color: #ff4d4d;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 7px 15px;
+    transition: 0.085s ease;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.reject-btn:hover {
+    background-color: #da3939;
+}
+
+.accept-btn {
+    background-color: #9147ff;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 7px 15px;
+    transition: 0.085s ease;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.1s;
+    margin-right: 15px;
+}
+
+.accept-btn:hover {
+    background-color: #772ce8;
+}

@@ -1,0 +1,168 @@
+.profile-container {
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.felso-sor {
+    background-color: #18181b;
+    width: 900px;
+    display: flex;
+    padding: 12px;
+}
+
+.felso-sor img {
+    border-radius: 0px;
+    width: 128px;
+    height: auto;
+    border: 2px solid gray;
+}
+
+.felso-sor p {
+    margin: 0px;
+}
+
+.felso-sor .nickname {
+    font-size: 17px;
+}
+
+.felso-sor .bio {
+    color: rgb(184, 184, 184);
+    font-size: 14px;
+    margin-top: 25px;
+
+}
+
+.kep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    margin-right: 25px;
+    justify-content: center;
+}
+
+.kep h4 {
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.kep h5 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.nickandsettings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nickandsettings p {
+    margin-right: 15px;
+}
+
+.nickandsettings i {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.1s transform;
+}
+
+.nickandsettings a {
+    text-decoration: none;
+}
+
+.nickandsettings i:hover {
+    transform: rotate(90deg);
+}
+
+.last-watched {
+    background-color: #18181b;
+    width: 900px;
+    padding: 12px;
+}
+
+.last-watched h4 {
+    color: #bf94ff;
+}
+
+.last-watched img {
+    border-radius: 3px;
+    height: 140px;
+    width: auto;
+}
+
+.first-column {
+    display: flex;
+}
+
+.first-column p {
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.first-column .leirasok {
+    display: flex;
+    flex-direction: column;
+}
+
+.leirasok .leiras {
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.leirasok a {
+    text-decoration: none;
+    color: #bf94ff;
+    font-weight: 450;
+    margin-left: 15px;
+    transition: 0.1s;
+}
+
+.leirasok a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 940px)
+{
+    .felso-sor,
+    .last-watched {
+        width: 600px;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .felso-sor {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .felso-sor .szovegek .bio {
+        margin-bottom: 25px;
+        margin-top: 5px;
+    }
+
+    .last-watched,
+    .felso-sor {
+        width: 90%;
+    }
+
+    .jatekosprofil {
+        margin-top: 25px;
+    }
+}
+
+.first-column {
+    margin-block: 35px;
+}
