@@ -8,11 +8,11 @@
 - have favourites
 - u can easily control the most rated, weekly, and the recommended animes by just changing the sql columns
 
-- https://www.youtube.com/watch?v=-T6RdvY_p2Q
-- x)
-
-
 # Not finished things (probably never will)
 
 - Settings (change pw, email)
 - support (támogatás)
+
+
+- https://www.youtube.com/watch?v=-T6RdvY_p2Q
+- x)
