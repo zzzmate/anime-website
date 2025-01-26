@@ -1,7 +1,10 @@
 # Anime Website (twitch.tv styled)
 
-- auth login/register
 - made a website for anime since every anime website in my language is shit
+
+# Features
+
+- auth login/register
 - have profile system (somehow steam designed) - (bio, nickname, pfp)
 - have comment section for each anime
 - u can request to upload an anime part or a full anime (u have interface as an admin to accept or deny it)
