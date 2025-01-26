@@ -14,11 +14,11 @@
 - good looking notifications (2 type easily can add more)
 
 # Not finished things
-- (probably never will cuz its boring to work on this project)
+- (probably never will cuz its boring to work on this project):
 
-- Settings (change pw, email)
-- support (támogatás)
-- forgot password
+1. Settings (change pw, email)
+2. support (támogatás)
+3. forgot password
 
 # Finished product showcase
 
